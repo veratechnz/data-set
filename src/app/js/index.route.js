@@ -19,8 +19,10 @@
           url: '/data',
           templateUrl: 'app/partials/data.html'
         })
-
-
+        .state('about', {
+          url: '/about',
+          templateUrl: 'app/partials/about.html'
+        })
     }
 
 })();
