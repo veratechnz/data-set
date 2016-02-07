@@ -39,7 +39,7 @@ function browserSyncInit(baseDir, browser) {
   browserSync.instance = browserSync.init({
     startPath: '/',
     server: server,
-    browser: ["google chrome", "firefox"]
+    browser: ["chrome", "firefox"]
   });
 }
 
